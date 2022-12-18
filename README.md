@@ -1,6 +1,8 @@
 # BiLSTM-IMDb-Review-Sentiment
 Bidirectional Long Short-Term Memory Network to predict review sentiment as positive or negative
 
+Dataset: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
 - The model learns bidirectional long-term dependencies between time steps of time series or sequence data which is ideal for analysis texual sentiments
 - I initially used a pre-trained word-vec model and build a function to split the review into words and then representing each word by it's word vector .
 - Set the max length of words as 258
